@@ -11,7 +11,8 @@ To run it you need the following
 - It is optional but for your own safety use a separate .env file. to use it install the
   [dotenv-rails](https://github.com/bkeepers/dotenv) gem
 
-the curl command that is tested is
+with this curl command you can test if the token is valid.
+The outcome should be an over view of all the accounts
 ```
 curl -H "Authorization: Bearer <OANDA_PRACTICE_TOKEN>" https://api-fxpractice.oanda.com/v1/accounts
 ```
