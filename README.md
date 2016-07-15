@@ -7,17 +7,13 @@ To run it you need the following
 - The [oanda_api](https://rubygems.org/gems/oanda_api/versions/0.9.0) gem
 - An Oanda practice fxaccount so you can get an API token
 
-**optional**
-- It is optional but for your own safety use a separate .env file. to use it install the
-  [dotenv-rails](https://github.com/bkeepers/dotenv) gem
-
 the curl command that is tested is
 ```
 curl -H "Authorization: Bearer <OANDA_PRACTICE_TOKEN>" https://api-fxpractice.oanda.com/v1/accounts
 ```
 
-#Example .env file
+# Run with the token provided as an env variable
 
 ```
-OANDA_PRACTICE_TOKEN=<YOUR TOKEN>
+$ env OANDA_PRACTICE_TOKEN=<YOUR TOKEN> ruby oanda_spike.rb
 ```
