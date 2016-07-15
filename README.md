@@ -13,7 +13,7 @@ To run it you need the following
 
 the curl command that is tested is
 ```
-curl -H "Authorization: Bearer <YOUR TOKEN>" https://api-fxtrade.oanda.com/v1/accounts
+curl -H "Authorization: Bearer <OANDA_PRACTICE_TOKEN>" https://api-fxpractice.oanda.com/v1/accounts
 ```
 
 #Example .env file
